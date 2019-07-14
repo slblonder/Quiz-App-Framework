@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Quiz App: Phytoplankton ">
+    <title>Phytplankton Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+   	<!-- start page --> 
+   <div id="container">
+    <section id="start-page" role="main">
+			<h1>Phytoplankton Quiz</h1>
+			<h2>What do you know about these microscopic organisms? </h2>
+      <button id="js-start-button">Begin Quiz </button>
+      </section> 	
+      </div>
+  
+   <!-- question page --> 
+       <div id="container">
+         <section class="question-page">
+           <form role="form" class="question">
+        <fieldset>
+          <legend>
+            <p>Question goes here?</p> 
+           </legend>
+              <ol type="none">
+                <li> 
+                  <label>
+                    <input class="answer" type="radio" name="option"></input>
+                    <span>Answer 1</span>
+                  </label> 
+                  </li>
+                 <li> 
+                  <label>
+                    <input class="answer" type="radio" name="option"></input>
+                    <span>Answer 2</span>
+                  </label> 
+                  </li>
+                  <li> 
+                  <label>
+                    <input class="answer" type="radio" name="option"></input>
+                    <span>Answer 3</span>
+                  </label> 
+                  </li>
+                  <li> 
+                  <label>
+                    <input class="answer" type="radio" name="option"></input>
+                    <span>Answer 4</span>
+                  </label> 
+                  </li>
+                <br>
+              <input type="submit">
+        </fieldset>
+      </form>
+         </section>
+         </div> 
+   <!-- status --> 
+   <section id="status">
+      <span id="question-count">Question: 0/10</span>
+      <span id="score">Score: 0/10</span>
+      <input type="button" id="nextButton" value="Next">
+    </section>
+    <!--Feedback Page-->
+      <h2>Sorry/Correct</h2>
+      <p>The correct answer was..... </p>
+
+    <!--Final-->
+      <h2>You have completed the quiz</h2>
+      <p>you scored 0/10</p>
+      <p>You are a phytoplankton expert!<p>
+      <button id="restartButton">Try Again?</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
